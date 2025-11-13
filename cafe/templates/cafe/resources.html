@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resources - Virtual Study Cafe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'cafe/style.css' %}">
+</head>
+<body>
+{% include 'cafe/navbar.html' %}
+<div class="container">
+    <div class="card shadow p-4 mt-4">
+        <h1>Resources</h1>
+        <ul>
+            <li><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a></li>
+            <li><a href="https://www.geeksforgeeks.org/" target="_blank">GeeksforGeeks</a></li>
+            <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+            <li><a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></li>
+        </ul>
+    </div>
+</div>
+<footer class="bg-light text-center text-muted mt-5 py-2">
+    &copy; 2025 Virtual Study Cafe
+</footer>
+</body>
+</html>
+

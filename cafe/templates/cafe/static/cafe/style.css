@@ -1,0 +1,28 @@
+body {
+    background: #f0f0f7;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #aaa;
+    max-width: 600px;
+    margin: auto;
+}
+h1 {
+    color: #2d7efc;
+    text-align: center;
+}
+a {
+    color: #102880;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+body { background: #f8f9fa; }
+a { text-decoration: none; }
+footer { font-size: 0.95em; }
+.card { border-radius: 10px; }
